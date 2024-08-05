@@ -45,7 +45,7 @@ const Login = () => {
         return ;
       }
       const { data } = await axios.post(
-        "https://artistic-enigma-server.onrender.com/login",
+        "https://artistic-enigma-server.onrender.com",
         {
           ...inputValue,
         }
